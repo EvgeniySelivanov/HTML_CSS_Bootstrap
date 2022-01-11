@@ -1,0 +1,246 @@
+.class1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 95px 0 75px;
+    
+}
+.bg-light
+{
+    background: #fff!important;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #008000;
+    font-size: 1rem;
+}
+.navbar-light .navbar-brand{
+    color: #008000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+.lock{
+    margin-top: 5px;
+    border-left: black 1px solid;
+    height: 70%;
+}
+/***************************************************************************************************************************************************************************************/
+#carouselExampleControls{
+    
+    background: #d2691e;
+}
+.carousel-item{
+   /* margin-left: 55%;*/
+    width: 100%;
+}
+h4{
+    color: #fff;
+    position: absolute;
+left:10%;
+top: 3%;
+font-size:20px;
+
+}
+h5{
+    color: #fff;
+    position: absolute;
+left: 10%;
+top: 17%;  
+}
+.carousel-inner a{
+    text-decoration: none;
+    color: #fff;
+    border:1.5px #fff solid;
+    position:absolute;
+    left: 10%;
+    top: 80%;
+    font-size:15px;
+    padding: 4px;
+    z-index: 2;
+}
+/******************************************************************************************************************************************************************/
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h3{
+    margin-top: 10px;
+}
+.col-md-9, .col-md-3{
+    text-align: center;
+}
+.col-md-9{
+    color: #999999;
+}
+.col-md-9 p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px;
+}
+.col-md-9 p:nth-child(2){
+  
+    font-size: 14px;
+}
+.container .row .col-md-3 a{
+    text-decoration: none;
+    background: green;
+    color:#fff;
+    width: 20px;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+}
+.col-md-4{
+    color: #fff;
+    }
+    .bg-dark .container{
+        flex-direction: column;
+    }
+    i{
+        background: green;
+        border:7px green solid;
+        border-radius: 50%;
+    }
+    .bg-success .container .row .col-md-3{
+        margin: 10px 0 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+    }
+    .bg-success .container{
+        margin-top: 0;
+    }
+    .bg-white .container .row{
+        margin-left: 25%;
+        justify-content: space-between;
+    }
+    h6{
+        color: #999;
+    }
+    .classend{
+        color: #fff;
+        font-weight: bold;
+        
+}
+.classend2{
+    text-decoration: none;
+    margin-left: 2%;
+    text-align: left;
+color: #999;
+border: none;
+background: #212529;
+}
+.bg-dark .row .col-md-3 p a .classend2{
+    margin-left: 2%;
+    text-align: left;
+color: #999;
+border: none;
+background: #212529;
+}
+.classend3{
+    margin-left: 2%;
+    text-align: left;
+color: #999;
+border: none;
+background: #333;
+}
+footer {
+    background: #333;
+}
+.z{
+    margin:0;
+    background: #333;
+    padding:5px;
+}
+.y{
+    border: 2px #ddd solid;
+    border-radius: 3px;
+    font-size: 35px;
+    padding: 10px;
+    margin-left: 35%;
+}
+
+@media screen and (min-width: 768px){
+    h4{
+    left:10%;
+    top: 30%;
+    font-size:50px;
+    
+    }
+    h5{
+        color: #fff;
+        position: absolute;
+    left: 10%;
+    top: 47%;  
+    }
+    .carousel-inner a{
+        text-decoration: none;
+        color: #fff;
+        border:1.5px #fff solid;
+        position:absolute;
+        left: 10%;
+        top: 70%;
+        font-size:25px;
+        padding: 4px;
+        z-index: 2;
+    }
+    .container{
+       flex-direction: row;
+    }
+    h3{
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    body .container .row{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .col-md-4{
+        margin-top: 40px;
+    }
+    .col-md-3{
+        margin-top: 15px;
+    }
+     .col-md-3 a{
+      
+        width: 20px;
+        height: 50px;
+        font-size: 20px;
+        padding: 8px;
+    }
+   
+    .col-md-9{
+        text-align: left;
+        
+    }
+    .col-md-3{
+        text-align:right;
+        
+    }
+    .bg-success .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .bg-success .container .row .col-md-3{
+        text-align: center;
+    }
+    .bg-dark .container .row .col-md-4{
+        margin-bottom: 40px;
+    }
+    .bg-white .container .row{
+        margin: auto;
+        justify-content: space-between;
+    }
+    .classend{
+        text-align: left;
+        margin-left: 8%;
+    }
+    
+}
